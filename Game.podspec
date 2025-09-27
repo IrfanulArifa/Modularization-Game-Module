@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.framework = "UIKit"
  
   s.source_files = "Game/**/*.{swift}"
+  s.resources = "Game/**/*.xcdatamodeld"
  
   s.swift_version = "5.5"
  
